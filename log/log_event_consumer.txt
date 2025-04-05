@@ -1,0 +1,31 @@
+{"level":"WARN","timestamp":"2025-04-04T23:19:29.102Z","logger":"kafkajs","message":"KafkaJS v2.0.0 switched default partitioner. To retain the same partitioning behavior as in previous versions, create the producer with the option \"createPartitioner: Partitioners.LegacyPartitioner\". See the migration guide at https://kafka.js.org/docs/migration-guide-v2.0.0#producer-new-default-partitioner for details. Silence this warning by setting the environment variable \"KAFKAJS_NO_PARTITIONER_WARNING=1\""}
+{"level":"INFO","timestamp":"2025-04-04T23:19:29.121Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"event-creator"}
+{"level":"INFO","timestamp":"2025-04-04T23:19:29.136Z","logger":"kafkajs","message":"[ConsumerGroup] Consumer has joined the group","groupId":"event-creator","memberId":"event-consumer-7907c4ab-648a-424c-8a2d-64dafd47d661","leaderId":"event-consumer-7907c4ab-648a-424c-8a2d-64dafd47d661","isLeader":true,"memberAssignment":{"event":[0,1,2]},"groupProtocol":"RoundRobinAssigner","duration":14}
+Fri, 04 Apr 2025 23:19:29 GMT:  creating {"value":"navigating the port won't do anything, we need to parse the back-end OCR matrix!","metadata":"{\"driver\":\"SQL\"}"}
+Fri, 04 Apr 2025 23:19:29 GMT:  undefined {
+  data: {
+    id: 2,
+    attributes: {
+      value: "navigating the port won't do anything, we need to parse the back-end OCR matrix!",
+      metadata: [Object],
+      createdAt: '2025-04-04T23:19:29.199Z',
+      updatedAt: '2025-04-04T23:19:29.199Z'
+    }
+  },
+  meta: {}
+}
+Fri, 04 Apr 2025 23:19:29 GMT:  created {"value":"navigating the port won't do anything, we need to parse the back-end OCR matrix!","metadata":"{\"driver\":\"SQL\"}"}
+Fri, 04 Apr 2025 23:19:29 GMT:  creating {"value":"If we back up the matrix, we can get to the API application through the open-source DRAM protocol!","metadata":"{\"firewall\":\"COM\"}"}
+Fri, 04 Apr 2025 23:19:29 GMT:  undefined {
+  data: {
+    id: 3,
+    attributes: {
+      value: 'If we back up the matrix, we can get to the API application through the open-source DRAM protocol!',
+      metadata: [Object],
+      createdAt: '2025-04-04T23:19:29.232Z',
+      updatedAt: '2025-04-04T23:19:29.232Z'
+    }
+  },
+  meta: {}
+}
+Fri, 04 Apr 2025 23:19:29 GMT:  created {"value":"If we back up the matrix, we can get to the API application through the open-source DRAM protocol!","metadata":"{\"firewall\":\"COM\"}"}

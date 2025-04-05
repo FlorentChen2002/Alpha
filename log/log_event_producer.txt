@@ -1,0 +1,16 @@
+{"level":"WARN","timestamp":"2025-04-04T23:18:05.176Z","logger":"kafkajs","message":"KafkaJS v2.0.0 switched default partitioner. To retain the same partitioning behavior as in previous versions, create the producer with the option \"createPartitioner: Partitioners.LegacyPartitioner\". See the migration guide at https://kafka.js.org/docs/migration-guide-v2.0.0#producer-new-default-partitioner for details. Silence this warning by setting the environment variable \"KAFKAJS_NO_PARTITIONER_WARNING=1\""}
+Fri, 04 Apr 2025 23:18:05 GMT:  product:  {
+  value: 'If we back up the matrix, we can get to the API application through the open-source DRAM protocol!',
+  metadata: '{"firewall":"COM"}'
+}
+Fri, 04 Apr 2025 23:18:05 GMT:  Sending:  {"value":"If we back up the matrix, we can get to the API application through the open-source DRAM protocol!","metadata":"{\"firewall\":\"COM\"}"}
+Fri, 04 Apr 2025 23:18:05 GMT:  product:  {
+  value: "navigating the port won't do anything, we need to parse the back-end OCR matrix!",
+  metadata: '{"driver":"SQL"}'
+}
+Fri, 04 Apr 2025 23:18:05 GMT:  Sending:  {"value":"navigating the port won't do anything, we need to parse the back-end OCR matrix!","metadata":"{\"driver\":\"SQL\"}"}
+Fri, 04 Apr 2025 23:18:05 GMT:  Waiting for all messages to be sent...
+Fri, 04 Apr 2025 23:18:05 GMT:  Message sent successfully: 1
+Fri, 04 Apr 2025 23:18:05 GMT:  Message sent successfully: 1
+Fri, 04 Apr 2025 23:18:05 GMT:  All messages have been sent
+Fri, 04 Apr 2025 23:18:05 GMT:  Disconnecting producer ...

@@ -1,0 +1,23 @@
+{"level":"WARN","timestamp":"2025-04-04T23:12:53.855Z","logger":"kafkajs","message":"KafkaJS v2.0.0 switched default partitioner. To retain the same partitioning behavior as in previous versions, create the producer with the option \"createPartitioner: Partitioners.LegacyPartitioner\". See the migration guide at https://kafka.js.org/docs/migration-guide-v2.0.0#producer-new-default-partitioner for details. Silence this warning by setting the environment variable \"KAFKAJS_NO_PARTITIONER_WARNING=1\""}
+./products.csv
+{
+  name: 'Product 131',
+  description: ' Description of Product 1',
+  stock_available: 15,
+  barcode: '1234567890',
+  status: undefined
+}
+Fri, 04 Apr 2025 23:12:53 GMT:  Sending:  {"name":"Product 131","description":" Description of Product 1","stock_available":15,"barcode":"1234567890"}
+{
+  name: 'Product 132',
+  description: ' Description of Product 2',
+  stock_available: 15,
+  barcode: '1234567890',
+  status: undefined
+}
+Fri, 04 Apr 2025 23:12:53 GMT:  Sending:  {"name":"Product 132","description":" Description of Product 2","stock_available":15,"barcode":"1234567890"}
+Fri, 04 Apr 2025 23:12:53 GMT:  Waiting for all messages to be sent...
+Fri, 04 Apr 2025 23:12:53 GMT:  Message sent successfully: 1
+Fri, 04 Apr 2025 23:12:53 GMT:  Message sent successfully: 1
+Fri, 04 Apr 2025 23:12:53 GMT:  All messages have been sent
+Fri, 04 Apr 2025 23:12:53 GMT:  Disconnecting producer ...

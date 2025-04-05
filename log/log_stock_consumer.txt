@@ -1,0 +1,24 @@
+{"level":"WARN","timestamp":"2025-04-04T23:22:47.702Z","logger":"kafkajs","message":"KafkaJS v2.0.0 switched default partitioner. To retain the same partitioning behavior as in previous versions, create the producer with the option \"createPartitioner: Partitioners.LegacyPartitioner\". See the migration guide at https://kafka.js.org/docs/migration-guide-v2.0.0#producer-new-default-partitioner for details. Silence this warning by setting the environment variable \"KAFKAJS_NO_PARTITIONER_WARNING=1\""}
+{"level":"INFO","timestamp":"2025-04-04T23:22:47.721Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"stock-creator"}
+{"level":"INFO","timestamp":"2025-04-04T23:22:47.735Z","logger":"kafkajs","message":"[ConsumerGroup] Consumer has joined the group","groupId":"stock-creator","memberId":"stock-consumer-fac54dd5-a1a7-4b53-bcf2-374c55635e55","leaderId":"stock-consumer-fac54dd5-a1a7-4b53-bcf2-374c55635e55","isLeader":true,"memberAssignment":{"stock":[0,1,2]},"groupProtocol":"RoundRobinAssigner","duration":13}
+Fri, 04 Apr 2025 23:22:47 GMT:  creating {"id":"355","amount":"22","type":"IN"}
+{ id: '355', amount: '22', type: 'IN' }
+TypeError: Cannot read properties of null (reading 'attributes')
+    at applyStockChange (file:///main.js:64:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Runner.eachMessage (file:///main.js:31:20)
+    at async Runner.processEachMessage (/node_modules/kafkajs/src/consumer/runner.js:231:9)
+    at async onBatch (/node_modules/kafkajs/src/consumer/runner.js:447:9)
+    at async Runner.handleBatch (/node_modules/kafkajs/src/consumer/runner.js:461:5)
+    at async /node_modules/kafkajs/src/consumer/worker.js:29:9
+Fri, 04 Apr 2025 23:22:47 GMT:  creating {"id":"201","amount":"37","type":"OUT"}
+{ id: '201', amount: '37', type: 'OUT' }
+Error: negative stock
+    at applyStockChange (file:///main.js:61:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Runner.eachMessage (file:///main.js:31:20)
+    at async Runner.processEachMessage (/node_modules/kafkajs/src/consumer/runner.js:231:9)
+    at async onBatch (/node_modules/kafkajs/src/consumer/runner.js:447:9)
+    at async Runner.handleBatch (/node_modules/kafkajs/src/consumer/runner.js:461:5)
+    at async /node_modules/kafkajs/src/consumer/worker.js:29:9
+{"level":"ERROR","timestamp":"2025-04-04T23:22:47.826Z","logger":"kafkajs","message":"[Connection] Response Metadata(key: 3, version: 5)","broker":"kafka:9092","clientId":"stock-consumer","error":"There is no leader for this topic-partition as we are in the middle of a leadership election","correlationId":2,"size":76}
