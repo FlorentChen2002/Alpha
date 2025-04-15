@@ -23,6 +23,8 @@ elif [ "$1" = "start" ]; then
     docker compose up -d stock_producer
     sleep 5
     docker compose up -d stock_consumer
+    sleep 5
+    docker compose up -d mosquitto mqtt-kafka-connector
 elif [ "$1" = "stop" ]; then
     cd projet-omega
     echo "Stop du projet"

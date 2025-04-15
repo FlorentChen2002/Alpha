@@ -7,12 +7,12 @@ const formatDate = (date: string) => new Date(date).toLocaleDateString('fr')
 
 type Product = {
   name: string
-  description?: string
+  description: string
   stock_available: number
   barcode?: string
   updatedAt: string
   createdAt: string
-  statuss: 'safe' | 'danger' | 'empty'
+  status: 'safe' | 'danger' | 'empty'
 }
 
 type Event = {
@@ -40,7 +40,7 @@ const ProductCard = ({ value }: { value: Product }) => {
   return (
     <div
       className="product-card"
-      style={{ background: getColor(value.statuss) }}
+      style={{ background: getColor(value.status) }}
     >
       <div className="product-card-name">{value.name}</div>
       <div className="product-card-desc">{value.description}</div>

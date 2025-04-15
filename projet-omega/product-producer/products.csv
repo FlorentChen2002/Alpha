@@ -1,5 +1,2 @@
 name,description,stock_available,barcode,status
-Maison, la maison est rouge,78,EUW,safe
-voiture, la voiture est rouge,780,Pomme,danger
-Product 131, Description of Product 1,15,1234567890,empty
-Product 132, Description of Product 2,15,1234567890,safe
+avion, l'avion est rouge,38,NA,safe
