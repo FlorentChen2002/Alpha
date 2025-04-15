@@ -4,7 +4,11 @@
 
 **GitHub** : [Lien vers le projet 1](https://github.com/FlorentChen2002/Beta/tree/main)
 
-**Vidéo** : [Lien vers la vidéo de démonstration](https://www.youtube.com/watch?v=nqbnR5M5GTs&ab_channel=FlorentChen)
+**Vidéo** : [Lien vers la vidéo de démonstration du projet 1](https://www.youtube.com/watch?v=nqbnR5M5GTs&ab_channel=FlorentChen)
+
+**GitHub** : [Lien vers le TME 10/11 ](https://github.com/FlorentChen2002/Alpha)
+
+**Vidéo** : [Lien vers la vidéo de démonstration du tme 10/11](https://www.youtube.com/watch?v=mbJdkHJON4s&ab_channel=FlorentChen)
 
 ---
 ### 🚀 Lancement du projet
@@ -190,17 +194,18 @@ protocol websockets
 
 ### Architecture mise en place
 
-Frontend (MQTT over WebSocket)
+**Frontend (MQTT over WebSocket)**
    ↓
-Mosquitto (broker MQTT)
+**Mosquitto** *(broker MQTT)*
    ↓
-Connecteur MQTT → Kafka (arthurescriou/mqtt-kafka-connector)
+**Connecteur MQTT → Kafka** *(arthurescriou/mqtt-kafka-connector)*
    ↓
-Kafka (topic: stock)
+**Kafka** *(topic: `stock`)*
    ↓
-Consumer Kafka
+**Consumer Kafka**
    ↓
-Strapi (mise à jour du stock produit)
+**Strapi** *(mise à jour du stock produit)*
+
 
 ---
 
