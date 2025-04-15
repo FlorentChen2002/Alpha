@@ -194,18 +194,19 @@ protocol websockets
 
 ### Architecture mise en place
 
-**Frontend (MQTT over WebSocket)**
+```
+Frontend (MQTT over WebSocket)
    ↓
-**Mosquitto** *(broker MQTT)*
+Mosquitto (broker MQTT)
    ↓
-**Connecteur MQTT → Kafka** *(arthurescriou/mqtt-kafka-connector)*
+Connecteur MQTT → Kafka (arthurescriou/mqtt-kafka-connector)
    ↓
-**Kafka** *(topic: `stock`)*
+Kafka (topic: stock)
    ↓
-**Consumer Kafka**
+Consumer Kafka
    ↓
-**Strapi** *(mise à jour du stock produit)*
-
+Strapi (mise à jour du stock produit)
+```
 
 ---
 
