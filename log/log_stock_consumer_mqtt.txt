@@ -1,0 +1,83 @@
+{"level":"WARN","timestamp":"2025-04-15T15:43:04.347Z","logger":"kafkajs","message":"KafkaJS v2.0.0 switched default partitioner. To retain the same partitioning behavior as in previous versions, create the producer with the option \"createPartitioner: Partitioners.LegacyPartitioner\". See the migration guide at https://kafka.js.org/docs/migration-guide-v2.0.0#producer-new-default-partitioner for details. Silence this warning by setting the environment variable \"KAFKAJS_NO_PARTITIONER_WARNING=1\""}
+{"level":"INFO","timestamp":"2025-04-15T15:43:04.403Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"stock-creator"}
+{"level":"INFO","timestamp":"2025-04-15T15:43:07.743Z","logger":"kafkajs","message":"[ConsumerGroup] Consumer has joined the group","groupId":"stock-creator","memberId":"stock-consumer-573bf936-8985-4ad8-9eaa-6acc69f48e9d","leaderId":"stock-consumer-573bf936-8985-4ad8-9eaa-6acc69f48e9d","isLeader":true,"memberAssignment":{"stock":[0,1,2]},"groupProtocol":"RoundRobinAssigner","duration":3338}
+Tue, 15 Apr 2025 15:43:07 GMT:  creating {"id":"200","amount":"20","type":"IN"}
+{ id: '200', amount: '20', type: 'IN' }
+hello:  178
+{"data":{"stock_available":178}}
+Tue, 15 Apr 2025 15:43:08 GMT:  { id: '200', amount: '20', type: 'IN' } {
+  data: {
+    id: 200,
+    attributes: {
+      name: 'avion',
+      description: " l'avion est rouge",
+      stock_available: 178,
+      barcode: 'NA',
+      status: 'safe',
+      createdAt: '2025-04-11T14:59:26.785Z',
+      updatedAt: '2025-04-15T15:43:08.285Z'
+    }
+  },
+  meta: {}
+}
+Tue, 15 Apr 2025 15:43:08 GMT:  created {"id":"200","amount":"20","type":"IN"}
+Tue, 15 Apr 2025 15:43:13 GMT:  creating {"id":200,"amount":20,"type":"IN"}
+{ id: 200, amount: 20, type: 'IN' }
+hello:  198
+{"data":{"stock_available":198}}
+Tue, 15 Apr 2025 15:43:13 GMT:  { id: 200, amount: 20, type: 'IN' } {
+  data: {
+    id: 200,
+    attributes: {
+      name: 'avion',
+      description: " l'avion est rouge",
+      stock_available: 198,
+      barcode: 'NA',
+      status: 'safe',
+      createdAt: '2025-04-11T14:59:26.785Z',
+      updatedAt: '2025-04-15T15:43:13.542Z'
+    }
+  },
+  meta: {}
+}
+Tue, 15 Apr 2025 15:43:13 GMT:  created {"id":200,"amount":20,"type":"IN"}
+Tue, 15 Apr 2025 15:43:44 GMT:  creating {"id":210,"amount":20,"type":"IN"}
+{ id: 210, amount: 20, type: 'IN' }
+hello:  58
+{"data":{"stock_available":58}}
+Tue, 15 Apr 2025 15:43:44 GMT:  { id: 210, amount: 20, type: 'IN' } {
+  data: {
+    id: 210,
+    attributes: {
+      name: 'avion',
+      description: " l'avion est rouge",
+      stock_available: 58,
+      barcode: 'NA',
+      status: 'safe',
+      createdAt: '2025-04-15T15:18:21.180Z',
+      updatedAt: '2025-04-15T15:43:44.880Z'
+    }
+  },
+  meta: {}
+}
+Tue, 15 Apr 2025 15:43:44 GMT:  created {"id":210,"amount":20,"type":"IN"}
+Tue, 15 Apr 2025 15:45:49 GMT:  creating {"id":210,"amount":10,"type":"OUT"}
+{ id: 210, amount: 10, type: 'OUT' }
+hello:  48
+{"data":{"stock_available":48}}
+Tue, 15 Apr 2025 15:45:49 GMT:  { id: 210, amount: 10, type: 'OUT' } {
+  data: {
+    id: 210,
+    attributes: {
+      name: 'avion',
+      description: " l'avion est rouge",
+      stock_available: 48,
+      barcode: 'NA',
+      status: 'safe',
+      createdAt: '2025-04-15T15:18:21.180Z',
+      updatedAt: '2025-04-15T15:45:49.321Z'
+    }
+  },
+  meta: {}
+}
+Tue, 15 Apr 2025 15:45:49 GMT:  created {"id":210,"amount":10,"type":"OUT"}
